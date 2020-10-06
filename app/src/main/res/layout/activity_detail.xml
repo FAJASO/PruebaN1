@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/adimg"
+        android:layout_width="132dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/credit_card_512" />
+
+    <TextView
+        android:id="@+id/adtarjeta"
+        android:layout_width="263dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="13dp"
+        android:text="@string/tarjeta" />
+
+    <TextView
+        android:id="@+id/adnombre"
+        android:layout_width="153dp"
+        android:layout_height="52dp"
+        android:textSize="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/nombre" />
+
+    <TextView
+        android:id="@+id/adapellido"
+        android:layout_width="153dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/apellido"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/admes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/mes" />
+
+    <TextView
+        android:id="@+id/adaño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/año" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="31dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="88dp"
+        android:text="/" />
+
+</RelativeLayout>
